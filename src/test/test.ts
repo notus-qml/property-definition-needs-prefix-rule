@@ -1,6 +1,6 @@
-import { Test, compare, TestDiagnosticRule, TestExecutor } from "notus-qml-test";
+import { Test, compare, TestDiagnostic, TestExecutor } from "notus-qml-test";
 
-@TestDiagnosticRule("property-definition-needs-prefix-rule")
+@TestDiagnostic("property-definition-needs-prefix-rule")
 export class PropertyDefinitionNeedsPrefixRuleTest {
 
     @Test('Propery definition needs prefix')
